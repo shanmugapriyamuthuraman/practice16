@@ -1,0 +1,45 @@
+.container{
+	width:85%;
+	margin:auto;
+}
+.pagetitle h2{
+	color:#548FDE;
+	font-size:1rem;
+	text-align:center;
+}
+.pagetitle h1{
+	color:#062753;
+	font-size:2rem;
+	text-align:center;
+}
+.box{
+	display:flex;
+	justify-content:space-between;
+}
+.box1{
+	width:32%;
+	height:75vh;
+	box-shadow:0px 0px 5px black;
+	border-radius:2%;
+}
+.box1 img{
+	height:43vh;
+	width:100%;
+	border-radius:2% 2% 0% 0%;
+}
+.box1 h4{
+	color:#548FDE;
+	padding:10px;
+	
+}
+.box1 p{
+	padding:7px;
+	color:#123B71;
+	font-size:1.3rem;
+	font-family:arial;
+}
+.box1 a{
+	text-decoration:none;
+	color:blue;
+	padding:6px;
+}
