@@ -1,0 +1,141 @@
+*{
+	width:99.5%;
+	height:auto;
+}
+#priya{
+	background-color:red;
+	font-size:2rem;
+}
+.color{
+	color:blue;
+	font-size:20px;
+}
+.des p{
+	color:red;
+}
+.child > p{
+	color:yellow;
+}
+.adjacent + p{
+	color:green;
+}
+.general ~ p{
+	background-color:red;
+}
+.pesudoclass a:visited{
+	color:red;
+}
+.pesudoclass a:hover{
+	color:blue;
+}
+.pesudoclass a:active{
+	background-color:yellow;
+}
+.pesudoelement p::first-line{
+	background-color:green;
+}
+.pesudoelement h3::first-letter{
+	color:red;
+}
+.pesudoelement h2::after{
+	content:"piriya";
+}
+.pesudoelement h2::before{
+	content:"M."
+}
+a[target]{
+ color:red;
+ }
+ a[target="_blank"]{
+ color:green;
+ }
+[class$=book]{
+   color:blue;
+}
+[class^=nine]{
+   color:red;
+}
+.star [class*=y]{
+   color:green;
+}
+
+[class|=h]{
+   color:orange;
+}
+
+[class~=nature]{
+   color:yellow;
+}
+.para1 {
+	font-style:italic;
+}
+.para2{
+		font-variant:small-caps;
+	}
+.para3{
+		font-family:arial;
+	}
+.para4{
+	font-weight:700;
+	font-size:30px;
+}
+.size {
+	font-size:70px;
+}
+.text1{
+	color:blue;
+}
+.text2{
+	text-align:center;
+}
+.text3{
+	text-align-last:justify;
+}
+.text4{
+	 direction: rtl;
+  unicode-bidi: bidi-override;
+}
+.text5{
+	text-decoration:overline;
+	text-decoration-color: red;
+}
+.text6{
+	text-decoration:underline;
+	text-decoration-style: dotted;
+}
+.text7{
+	text-decoration:line-through;
+}
+.text8{
+	text-transform:uppercase;
+}
+.text9{
+	text-transform:lowercase;
+}
+.text10{
+	text-transform:capitalize;
+}
+.text11{
+	text-indent:70px;
+}
+.text12{
+	letter-spacing:10px;
+}
+.text13{
+	line-height:20px;
+}
+.text14{
+	word-spacing:20px;
+}
+.text15{
+	text-shadow:1px 1px red;
+}
+.colors{
+	color:rgba(255, 0, 0,1);
+}
+.colors1{
+	color:#0000ff;
+}
+.colors2{
+	color:hsl(300, 76%, 72%);
+}
