@@ -1,0 +1,329 @@
+.container{
+	width:85%;
+	margin:auto;
+}
+body{
+	font-family:arial;
+	margin-top:20px;
+}
+.resume1{
+	text-align:center;
+	padding:10px;
+}
+.resume1 a{
+	color:blue;
+}
+.resume1 h1,h3,p{
+	font-size:10px;
+	padding:5px;
+}
+.heading{
+	font-weight:bold;
+	font-size:20px;
+	padding:30px 0px;
+}
+.para{
+	font-size:18px;
+	padding:25px 0px;
+}
+.head{
+	font-size:18px;
+	font-weight:bold;
+	padding:20px 0px;
+}
+.year{
+	font-size:18px;
+}
+@media (min-width:360px){
+	.resume1 h1,h3,p{
+		font-size:15px;
+	}
+}
+@media (min-width:768px){
+	.resume1 h1,h3,p{
+		font-size:19px;
+	}
+}
+@media (min-width:992px){
+	.resume1 h1,h3,p{
+		font-size:22px;
+	}
+}
+@media (min-width:1024px){
+	.resume1 h1,h3,p{
+		font-size:25px;
+	}
+}
+@media (min-width:360px){
+	.resume2 h1,p{
+		font-size:23px;
+	}
+	.resume3 h1{
+		font-size:19px;
+	}
+	.resume3 h3,h4{
+		font-size:20px;
+	}
+	.resume3 p{
+		font-size:21px;
+	}
+	.resume4 h1{
+		font-size:20px;
+	}
+	.resume4 p{
+		font-size:21px;
+	}
+	.resume4 h4{
+		font-size:20px;
+	}
+	.resume5 h1,h4{
+		font-size:19px;
+	}
+	.resume5 p{
+		font-size:21px;
+	}
+	.resume6 h1{
+		font-size:19px;
+	}
+	.resume6 p{
+		font-size:21px;
+	}
+	.resume7 h1{
+		font-size:19px;
+	}
+	.resume7 p{
+		font-size:21px;
+	}
+	.resume8 p{
+		font-size:21px;
+	}
+	.resume9 h1{
+		font-size:19px;
+	}
+	.resume9 p{
+		font-size:21px;
+	}
+	.resume10 h1,h3{
+		font-size:19px;
+	}
+	.resume10 a{
+		font-size:5px;
+	}
+	.resume11 h1,p{
+		font-size:19px;
+	}
+	.resume11 h3{
+		font-size:20px;
+	}
+}
+@media (min-width:768px){
+	.resume2 h1,p{
+		font-size:26px;
+	}
+	.resume3 h1{
+		font-size:21px;
+	}
+	.resume3 h3,h4{
+		font-size:22px;
+	}
+	.resume3 p{
+		font-size:23px;
+	}
+	.resume4 h1{
+		font-size:23px;
+	}
+	.resume4 p{
+		font-size:24px;
+	}
+	.resume4 h4{
+		font-size:22px;
+	}
+	.resume5 h1,h4{
+		font-size:21px;
+	}
+	.resume5 p{
+		font-size:24px;
+	}
+	.resume6 h1{
+		font-size:21px;
+	}
+	.resume6 p{
+		font-size:24px;
+	}
+	.resume7 h1{
+		font-size:21px;
+	}
+	.resume7 p{
+		font-size:24px;
+	}
+	.resume8 p{
+		font-size:24px;
+	}
+	.resume9 p{
+		font-size:24px;
+	}
+	.resume9 h1{
+		font-size:21px;
+	}
+	.resume10 h1,h3{
+		font-size:21px;
+	}
+	.resume10 a{
+		font-size:10px;
+	}
+	.resume11 h1,p{
+		font-size:21px;
+	}
+	.resume11 h3{
+		font-size:23px;
+	}
+}
+@media (min-width:992px){
+	.resume2 h1,p{
+		font-size:28px;
+	}
+	.resume3 h1{
+		font-size:23px;
+	}
+	.resume3 h3,h4{
+		font-size:25px;
+	}
+	.resume3 p{
+		font-size:27px;
+	}
+	.resume4 h1{
+		font-size:26px;
+	}
+	.resume4 p{
+		font-size:27px;
+	}
+	.resume4 h4{
+		font-size:24px;
+	}
+	.resume5 h1,h4{
+		font-size:23px;
+	}
+	.resume5 p{
+		font-size:27px;
+	}
+	.resume6 h1{
+		font-size:23px;
+	}
+	.resume6 p{
+		font-size:27px;
+	}
+	.resume7 h1{
+		font-size:23px;
+	}
+	.resume7 p{
+		font-size:27px;
+	}
+	.resume8 p {
+		font-size:27px;
+	}
+	.resume9 h1{
+		font-size:23px;
+	}
+	.resume9 p{
+		font-size:27px;
+	}
+	.resume10 h1,h3{
+		font-size:23px;
+	}
+	.resume10 a{
+		font-size:12px;
+	}
+	.resume11 h1,p{
+		font-size:23px;
+	}
+	.resume11 h3{
+		font-size:25px;
+	}
+}
+@media (min-width:1024px){
+	.resume2 h1,p{
+		font-size:30px;
+	}
+	.resume3 h1{
+		font-size:26px;
+	}
+	.resume3 h3,h4{
+		font-size:27px;
+	}
+	.resume3 p{
+		font-size:29px
+	}
+	.resume4 h1{
+		font-size:28px;
+	}
+	.resume4 p{
+		font-size:29px;
+	}
+	.resume4 h4{
+		font-size:26px;
+	}
+	.resume5 h1,h4{
+		font-size:25px;
+	}
+	.resume5 p{
+		font-size:29px;
+	}
+	.resume6 h1{
+		font-size:25px;
+	}
+	.resume6 p{
+		font-size:29px;
+	}
+	.resume7 h1{
+		font-size:25px;
+	}
+	.resume7 p{
+		font-size:29px;
+	}
+	.resume8 p{
+		font-size:29px;
+	}
+	.resume9 h1{
+		font-size:25px;
+	}
+	.resume9 p{
+		font-size:29px;
+	}
+	.resume10 h1,h3{
+		font-size:25px;
+	}
+	.resume10 a{
+		font-size:15px;
+	}
+	.resume11 h1,p{
+		font-size:25px;
+	}
+	.resume11 h3{
+		font-size:27px;
+	}
+}
+.resume9{
+	border:1px solid black;
+}
+.resume9 h1{
+	font-weight:bold;
+	font-size:18px;
+	padding:10px;
+}
+.resume9 p{
+	padding-top:20px;
+	font-size:20px;
+}
+.resume10 a{
+	font-size:8px;
+	color:blue;
+	padding:10px;
+}
+.resume10 h1,h3{
+	padding:10px;
+}
+.resume10{
+	border:1px solid black;
+	margin-top:40px;
+}
+
