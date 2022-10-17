@@ -1,0 +1,314 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+.container{
+	width:95%;
+	margin:auto;
+}
+.topbar{
+	border-bottom:0.1rem solid gray;
+}
+.header1{
+	justify-content:space-between;
+}
+.d-flex{
+	display:flex;
+}
+.info iconify-icon{
+	color:blue;
+	font-size:1.3rem;
+}
+.info{
+	padding:0.5rem 0.8rem;
+}
+.info p{
+	font-size:1rem;
+}
+.icons{
+	display:none;
+}
+.head{
+		justify-content:space-between;
+}
+.logo{
+	font-size:2rem;
+	text-decoration:none;
+	color:#516ECB;
+	font-family:arial;
+	letter-spacing:2;
+}
+.nav{
+	padding:0.7rem;
+	justify-content:space-between;
+}
+.nav iconify-icon{
+	font-size:2.5rem;
+}
+.navlink{
+	display:none;
+}
+.navlink ul,li{
+	padding:0.8rem;
+	font-size:1.2rem;
+} 
+.navlink li,a{
+	text-decoration:none;
+	list-style:none;
+	color:black;
+}
+@media(min-width:768px){
+	.icons{
+		display:block;
+		padding:0.5rem;
+		font-size:1.5rem;
+	}
+}
+@media(min-width:1024px){
+	.navlink{
+		display:block;
+		display:flex;
+	}
+	.nav iconify-icon{
+		display:none;
+	}
+}
+.page1{
+	background-image:url("mambaimg/slide-1.jpg");
+	height:85vh;
+	background-size:cover;
+}
+.content h1{
+	font-family:arial;
+	font-size:2rem;
+	color:white;
+	font-weight:800;
+	padding-top:1.5rem;
+}
+.content p{
+    width:60%;
+	font-size:1rem;
+	color:white;
+	padding-top:1.5rem;
+	font-family:arial;
+}
+.button {
+	margin:auto;
+	margin-top:2rem;
+}
+.button a{
+	color:white;
+	padding:1rem 1.2rem 1rem 1.2rem;
+	margin-top:3rem;
+	border:1px solid #428bca;
+	background-color:#428bca;
+	border-radius:0.5rem;
+}
+.aboutimg{
+	padding-top:2rem;
+}
+.head{
+	color:gray;
+	font-family:arial;
+	font-size:2.5rem;
+	text-align:center;
+}
+.aboutus p{
+	color:gray;
+	font-size:1.2rem;
+	padding:2rem;
+}
+@media (min-width:768px){
+	.content h1{
+		font-size:2.5rem;
+		padding-top:8rem;
+	}
+	.content p{
+		font-size:1rem;
+		width:70%;
+	}
+	.container{
+		width:90%;
+		margin:auto;
+	}
+	.button a{
+	color:white;
+	padding:1rem 1.2rem 1rem 1.2rem;
+	margin-top:3rem;
+	border:1px solid #428bca;
+	background-color:#428bca;
+	border-radius:0.5rem;
+	}
+}
+@media (min-width:1024px){
+	.content h1{
+		font-size:2.8rem;
+		padding-top:8rem;
+	}
+	.container{
+		width:85%;
+		margin:auto;
+	}
+	.content p{
+		font-size:1.2rem;
+		width:75%;
+	}
+}
+}
+@media (min-width:1024px){
+	.about{
+		display:flex;
+	}
+	 .aboutimg{
+		width:48%;
+	}
+	.aboutimg img{
+		width:100%;
+	}
+	.aboutus{
+		width:100%;
+	}
+	.aboutdetails{
+		width:48%;
+	} 
+}
+.icon1{
+	width:100%;
+	margin-top:2rem;
+}
+	
+.icon1 iconify-icon{
+	font-size:2rem;
+	height:4.5rem;
+	width:4.5rem;
+	border:1px solid F1F7FB;
+	background-color:#F1F7FB;
+	color:blue;
+	display:flex;
+	justify-content:center;
+	float:left;
+	align-items:center;
+	}
+.icon1 iconify-icon:hover{
+	color:white;
+	background-color:007aff;
+}
+.icon1 a{
+	text-decoration:none;
+	color:black;
+	padding:0 0 0 2rem;
+	margin-top:5rem;
+	font-size:1.3rem;
+	font-weight:500;
+}
+.icon1 a:hover{
+	color:blue;
+}
+.icon1 p{ 
+	font-size:1.1rem;
+	padding: 0 0 0 6rem	; 
+	color:gray;
+}
+.lorem h1{
+	padding:1rem;
+	font-size:2rem;
+	font-family:arial
+}
+.lorem p{
+	padding:1rem;
+	color:gray;
+}
+.ipsum{
+	margin-top:2rem;
+}
+.lorem{
+	border-bottom:0.1rem solid gray;
+}
+@media (min-width:768px){
+	 .ipsum{
+		display:flex;
+	} 
+	.lorem h1{
+		padding:1rem;
+	}
+}
+.page4{
+	background-color:#F5F9FC;
+	padding-top:2rem;
+}
+.clients{
+	background-color:white;
+	border:1px solid black;
+	margin-top:1rem;
+	box-shadow:0px 0px 15px #8888884a;
+}
+.clients h1{
+	text-align:center;
+	padding:1rem;
+	font-size:2rem;
+	color:#1F3865 ;
+}
+.clients p{
+	text-align:center;
+	font-size:1.5rem;
+	color:#909497;
+	padding-bottom:2.5rem;
+}
+@media (min-width:1024px){
+	.page4{
+	width:100%;
+	padding-top:3rem;
+	background-color:F5F9FC;
+	}
+	.projects{
+	padding-bottom:1rem;
+	display:flex;
+	justify-content:space-between;
+	}
+	.clients{
+		width:23%;
+	}
+}
+@media(min-width:768px){
+	.projects{
+		display:flex;
+		justify-content:space-between;
+		width:100%;
+		padding-bottom:1rem;
+		flex-wrap:wrap;
+	}
+	.page4{
+		width:100%;
+		padding-top:3rem;
+	}
+	.clients{
+		width:48%;
+	}
+}
+.dolor1 iconify-icon{
+	border-radius:50%;
+	color:blue;
+	font-size:2rem;
+	margin-left:7rem;
+	padding:2rem;
+}
+.dolor a{
+	font-size:1.3rem;
+	margin-left:7rem;
+}
+
+.dolor p{
+	text-align:center;
+	padding-top:2rem;
+}
+@media (min-width:1024px){
+	.services1{
+		display:flex;
+	}
+	.dolor a{
+		font-size:1.5rem;
+		padding:2rem;
+		margin-left:1rem;
+	}
+}
