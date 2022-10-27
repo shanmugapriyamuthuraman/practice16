@@ -1,0 +1,72 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+.container{
+	width:85%;
+	margin:auto;
+}
+.page1 h1{
+	font-size:2rem;
+	text-align:center;
+}
+.teamimg img{
+	width:100%;
+	margin-top:1rem;
+}
+@media (min-width:768px){
+	.team{
+		display:flex;
+		flex-wrap:wrap;
+		width:100%;
+		justify-content:space-between;
+	}
+	.teamimg{
+		width:49%;
+	}
+}
+@media (min-width:1024px){
+	.team{
+		display:flex;
+		flex:wrap;
+		width:100%;
+		justify-content:space-between;
+	}
+	.teamimg{
+		width:23%;	
+	}
+}
+.page2{
+	padding-top:2rem;
+}
+.page2 h1{
+	font-size:2rem;
+	text-align:center;
+}
+.port img{
+	width:100%;
+	margin-top:1rem;
+}
+@media(min-width:768px){
+	.portfolio{
+		display:flex;
+		flex-wrap:wrap;
+		width:100%;
+		justify-content:space-between;
+	}
+	.port{
+		width:48%;
+	}
+}
+@media(min-width:1024px){
+	.portfolio{
+		display:flex;
+		flex-wrap:wrap;
+		width:100%;
+		justify-content:space-between;
+	}
+	.port{
+		width:30%;
+	}
+}
