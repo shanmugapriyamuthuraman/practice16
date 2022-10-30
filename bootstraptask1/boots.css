@@ -179,6 +179,7 @@
 	right: 0px;
 	transition: all 0.4s;
 	color:white;
+	border-radius:3%;
 }
 .all:hover::before{
 	width: 100%;
