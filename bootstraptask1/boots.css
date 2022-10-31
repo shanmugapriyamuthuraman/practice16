@@ -396,7 +396,7 @@
 .join input{
 	 width:40%; 
 	 padding:1rem;
-	 border:none;
+	  border:none;
 }
 .join a{
 	text-decoration:none;
@@ -430,11 +430,20 @@
 	text-decoration:none;
 	color:#797D7F;
 }
-.social iconify-icon{
+.socialicon{
+	display:flex;
+	width:100%;
+}
+.socialicon iconify-icon{
 	color:white;
 	border-radius:50%;
 	background-color:#E46919  ;
-	padding:0.5rem;
+	width:35px;
+	height:35px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	margin-left:0.3rem;
 	font-size:1.3rem;
 }
 .page10{
