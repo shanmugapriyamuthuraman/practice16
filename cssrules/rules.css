@@ -1,0 +1,37 @@
+@import url("import.css");
+.rule{
+	position:relative;
+	animation:square 2s infinite;
+	background-color:red;
+	width:44px;
+	height:44px;
+}
+
+@keyframes square{
+	from{
+		height:50px;
+		width:50px;
+		left:0;
+	}
+	to{
+		height:150px;
+		width:150px;
+		background-color:pink;
+		left :100px;
+	}
+}
+.rule1 h1{
+	color:red !important;
+	font-size:4rem !important;
+}
+.rule1 h1{
+	color:blue;
+	font-size:2rem;
+}
+@font-face{
+	font-family:nunito;
+	src:url(font/nunito.ttf);
+}
+.font{
+	font-family:nunito; 
+}
