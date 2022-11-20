@@ -36,6 +36,9 @@
 .navlink{
 	display:none;
 }
+.nav ul iconify-icon{
+	color:white;
+}
 @media(min-width:768px){
 	.navlink{
 		display:none;
@@ -64,23 +67,30 @@
 	}
 }
 /* link finish */
-.page1-1{
-	background-image:url("devimg/banerimg.jpg");
+ .page1-1{
+	background-image:url("devimg/priya1.jpg");
 	background-size:cover;
 }
 .banercon{
 	text-align:center;
 	padding-bottom:5rem;
+	color:#152DC5;
 }
-.banercon h1{
-	color:white;
-	padding-top:6rem;
+.banercon iconify-icon{
 	font-size:2rem;
 }
+.banercon h1{
+	color:#F4254A ;
+	padding-top:6rem;
+	font-size:2rem;
+	font-family:Rubik Bubbles;
+	text-shadow:2px 3px 2px #25F4E7 ;
+}
 .banercon h3{
-	color:white;
+	color:#F4254A ;
 	font-size:1.5rem;
 	line-height:2;
+	text-shadow:2px 3px 2px #25F4E7 ;
 }
 @media(min-width:768px){
 	.banercon{
@@ -93,6 +103,9 @@
 	.banercon h3{
 		font-size:2rem;
 	}
+	.banercon iconify-icon{
+	font-size:4rem;
+}
 }
 @media(min-width:1024px){
 	.banercon{
@@ -115,12 +128,15 @@
 /* baner section finish */
 .page2{
 	background-color:#F7F5F1;
+	padding-bottom:2rem;
+	padding-top:2rem;
 }
 .aboutdet{
 	padding-top:2rem;
 }
 .aboutimg img{
-	border-radius:3%;
+	border-radius:0% 40% 0% 40%;
+	width:100%;
 }
 .aboutname p{
 		font-size:1.2rem;
@@ -129,7 +145,7 @@
 .aboutimg{
 	padding-bottom:2rem;
 }
-.aboutme1 h1{
+.aboutme */1 h1{
 	font-size:1.5rem;
 	line-height:2;
 }
@@ -140,19 +156,33 @@
 	background-color:blue;
 	display:block;
 }
-.aboutme1 p{
+.aboutme1 h2{
 	font-size:1.3rem;
 	padding-top:1rem;
+	color:#C0392B;
 }
-.progress h1{
+.aboutme1 li{
+	font-size:1.2rem;
+	line-height:1.3rem;
+	padding-top:1rem;
+	list-style:none;
+}
+.aboutme1 iconify-icon{
+	color:black
+}
+.aboutres{
+	font-size:1.4rem;
 	line-height:2;
 }
-.progress p{
-	line-height:3;
+.icon{
+	font-size:2rem;
 }
-.progress progress{
-	width:100%;
-	height:6vh;
+.pro progress{
+	border-radius:2%;
+}
+.pro p{
+	font-size:1.5rem;
+	padding-top:1rem;
 }
 @media(min-width:768px){
 	.aboutdet{
@@ -160,8 +190,18 @@
 		justify-content:space-between;
 		width:100%;
 	}
+	.aboutme1 h1::after{
+	content:"";
+	width:10%;
+	height:0.8vh;
+	background-color:blue;
+	display:block;
+}
 	.aboutimg{
-		width:38%;
+		width:48%;
+	}
+	.aboutres{
+		width:48%;
 	}
 	.aboutname{
 		width:54%;
@@ -171,68 +211,107 @@
 	.aboutme{
 		display:flex;
 		width:100%;
+		justify-content:space-between;
 	}
 	.aboutme1{
-		width:70%;
+		width:42%;
 	}
-	.aboudtet{
-		width:30%;
+	.aboutme1 h2{
+		font-size:1.7rem;
+	}
+	.aboutme1 p{
+		font-size:1.4rem;
+		line-height:1.5;
+	}
+	.aboutimg{
+		width:50%;
+	}
+	.aboutdet{
+		width:54%;
+		justify-content:space-between;
+	}
+	.aboutres p{
+		font-size:1.4rem;
+	}
+	.aboutres{
+		width:50%;
+		padding-left:1rem;
 	}
 }
 /* about section finish  */
+.page4{
+	padding-top:4rem;
+	padding-bottom:4rem;
+	text-align:center;
+}
+.res h2{
+	color:#F126B1 ;
+}
+.resume h1{
+	text-align:center;
+	text-shadow:0px 0px 3px black;
+}
+.resume h2{
+	color:#F126B1 ;
+}
 .page3{
-	text-align:center;
-	background-color:#F7F5F1;
-}
-.serhead h1{
-	font-size:2rem;
-	line-height:2;
-}
-.serbox{
-	text-align:center;
-	background-color:white;
-	padding-top:2rem;
-	margin-top:2rem;
+
+	background-color:#F5EEF8;
 	padding-bottom:2rem;
-	box-shadow:box-shadow:0px 0px 10px #76767670;
+	padding-top:2rem;
 }
-.serbox h1{
-	line-height:2;
+.page3 h1{
+	text-align:center;
 }
-.serbox iconify-icon{
-	border:7px solid blue;
-	padding:2rem;
-	border-radius:50%;
-	font-size:2rem;
+.but{
+	text-align:center;
 }
-.serbox iconify-icon:hover{
+.but button{
+	background-color:red;
+	border:none;
+	border-radius:7% 0% 5% 0%;
+}
+.but a{
+	text-decoration:none;
 	color:white;
-	border:8px solid #668FED;
-	background-color:blue;
 }
-@media(min-width:768px){
-	.services{
-		display:flex;
-		flex-wrap:wrap;
-		justify-content:space-between;
-		width:100%;
-	}
-	.serbox{
-		width:48%;
-		margin-top:2rem;
-		padding-bottom:2rem;
-	}
-
+.det{
+	background-color:#D5F5E3;
+	text-align:center;
+	padding-top:8rem;
+	padding-bottom:8rem;
 }
-@media(min-width:1024px){
-	.services{
-		display:flex;
-		flex-wrap:wrap;
-		justify-content:space-between;
-		width:100%;
-	}
-	.serbox{
-		width:30%;
-	}
-
+.det img{
+	border-radius:50%;
+}
+.resume1{
+	box-shadow:0px 0px 2px 3px black;
+}
+.page5{
+	padding-top:2rem;
+	padding-bottom:2rem;
+}
+.resum h1{
+	font-size:1.3rem;
+}
+.container1{
+	width:60%;
+	margin:auto;
+}
+.cont{
+	width:30%;
+	height:40%;
+	border:1px solid black;
+	text-align:center;
+}
+.cont iconify-icon{
+	font-size:2rem;
+	border:5px solid black;
+	border-radius:50%;
+	height:5rem;
+	width:5rem;
+	margin:auto;
+	justify-content:center;
+	align-items:center;
+	display:flex;
 }
