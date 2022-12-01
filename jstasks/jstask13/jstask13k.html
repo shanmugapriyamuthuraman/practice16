@@ -7,51 +7,134 @@
 </head>
 <body>
 	<script>
-		function arrayname(g){
-	    var b=[];
-		var c;
-		for(i=0; i<g; i++){
-		   d=prompt("create inner array");
-		   if(d==0){
-		      d=prompt("create single array");
-			  b[i]=d;
-		   }
-		   else{
-		      c=[];
-			  for(j=0; j<d; j++){
-			     e=prompt("inner array value");
-				 c[j]=e;
-			  }
-			  b[i]=c;
-		   }
+		<!-- function arrayname(g){ -->
+	    <!-- var b=[]; -->
+		<!-- var c; -->
+		<!-- for(i=0; i<g; i++){ -->
+		   <!-- d=prompt("create inner array"); -->
+		   <!-- if(d==0){ -->
+		      <!-- d=prompt("create single array"); -->
+			  <!-- b[i]=d; -->
+		   <!-- } -->
+		   <!-- else{ -->
+		      <!-- c=[]; -->
+			  <!-- for(j=0; j<d; j++){ -->
+			     <!-- e=prompt("inner array  value"); -->
+				 <!-- c[j]=e; -->
+			  <!-- } -->
+			  <!-- b[i]=c; -->
+		   <!-- } -->
+		<!-- } -->
+		<!-- return b; -->
+	 <!-- }; -->
+	 
+	 
+	 <!-- function funname(one){ -->
+	    <!-- if(x<f.length){ -->
+		   <!-- if(typeof f[one]=="number"){ -->
+		      <!-- t=(f[one]); -->
+			  <!-- return t; -->
+		   <!-- } -->
+		   <!-- else{ -->
+		      <!-- if(typeof f[one]=="object"){ -->
+			     <!-- var y=prompt("enter the check index"); -->
+				 <!-- q=f[one][y]; -->
+				 <!-- return q; -->
+			  <!-- } -->
+		   <!-- } -->
+		<!-- } -->
+	 <!-- }; -->
+	 <!-- function name(){ -->
+		<!-- index=prompt("enter a main index"); -->
+		<!-- subindex=prompt("enter a sub index"); -->
+		<!-- a[index][subindex]=prompt("enter a dub value"); -->
+		
+	 <!-- } -->
+	 <!-- var a=prompt("enter the number"); -->
+	 <!-- var f=arrayname(a); -->
+	 <!-- console.log(f); -->
+	 
+	 <!-- var x=prompt("enter the check index"); -->
+	 <!-- var second=funname(x); -->
+	 <!-- console.log(second) -->
+	 
+	 
+	 
+	 <!-- var a=prompt("enter main length"); -->
+		
+			<!-- let m=my(a); -->
+			<!-- console.log(m); -->
+			<!-- var x=prompt("enter main index"); -->
+			<!-- var y=prompt("enter sub index"); -->
+			<!-- if(x<m.length) -->
+			<!-- { -->
+			
+			<!-- var newvalue=prompt("enter new value"); -->
+		<!-- m[x][y]=newvalue -->
+			<!-- console.log(m); -->
+			<!-- } -->
+			<!-- else -->
+			<!-- { -->
+				<!-- console.log("not found"); -->
+			<!-- } -->
+			
+			 
+			
+			<!-- function my(z) -->
+			<!-- { -->
+				<!-- var b=[]; -->
+				<!-- for(i=0;i<z;i++) -->
+				<!-- { -->
+					<!-- var d=prompt("enter inner length"); -->
+					<!-- if(d==0) -->
+					<!-- { -->
+						<!-- D=prompt("enter number"); -->
+					<!-- } -->
+					<!-- else{ -->
+						<!-- c=[]; -->
+						<!-- for(j=0;j<d;j++) -->
+						<!-- { -->
+							<!-- var e=prompt("enter values"); -->
+							<!-- c[j]=e; -->
+							<!-- b[i]=c; -->
+						<!-- } -->
+					<!-- } -->
+				<!-- } -->
+				<!-- return b; -->
+			<!-- } -->
+	let users=[
+    {
+        email:"amutha@gmail.com",
+        pass:"amu@123",
+        username:"Amutha",
+        age:23
+    },
+    {
+        email:"priya@gmail.com",
+        pass:"priya@123",
+        username:"Priya",
+        age:22
+    } ,   
+    {
+        email:"durga@gmail.com",
+        pass:"durga@123",
+        username:"Durga",
+        age:24
+    },
+    {
+        email:"anitha@gmail.com",
+        pass:"ani@123",
+        username:"Anitha",
+        age:21
+    }
+    ]
+	
+	for(let amu of users){
+		console.log(amu);
+		for(amuth in amu){
+			console.log(amu[amuth]);
 		}
-		return b;
-	 };
-	 
-	 
-	 function funname(one){
-	    if(x<f.length){
-		   if(typeof f[one]=="number"){
-		      t=(f[one]);
-			  return t;
-		   }
-		   else{
-		      if(typeof f[one]=="object"){
-			     var y=prompt("enter the check index");
-				 q=f[one][y];
-				 return q;
-			  }
-		   }
-		}
-	 };
-	 
-	 var a=prompt("enter the number");
-	 var f=arrayname(a);
-	 console.log(f);
-	 
-	 var x=prompt("enter the check index");
-	 var second=funname(x);
-	 console.log(second)
+	}
 	</script>
 </body>
 </html>
