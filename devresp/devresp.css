@@ -68,7 +68,7 @@
 }
 /* link finish */
  .page1-1{
-	background-image:url("devimg/priya1.jpg");
+	background-color:#2b7a78;
 	background-size:cover;
 }
 .banercon{
@@ -80,17 +80,15 @@
 	font-size:2rem;
 }
 .banercon h1{
-	color:#F4254A ;
+	color:white;
 	padding-top:6rem;
 	font-size:2rem;
 	font-family:Rubik Bubbles;
-	text-shadow:2px 3px 2px #25F4E7 ;
 }
 .banercon h3{
-	color:#F4254A ;
+	color:black ;
 	font-size:1.5rem;
 	line-height:2;
-	text-shadow:2px 3px 2px #25F4E7 ;
 }
 @media(min-width:768px){
 	.banercon{
@@ -127,9 +125,21 @@
 }
 /* baner section finish */
 .page2{
-	background-color:#F7F5F1;
+	background-color:#def2f1;
 	padding-bottom:2rem;
 	padding-top:2rem;
+}
+.page2 h1{
+	text-align:center;
+}
+.head h1::after{
+	content:"";
+	width:10%;
+	height:0.9vh;
+	display:block;
+	margin:auto;
+	margin-top:2rem;
+	background-color:#2b7a78;
 }
 .aboutdet{
 	padding-top:2rem;
@@ -145,21 +155,14 @@
 .aboutimg{
 	padding-bottom:2rem;
 }
-.aboutme */1 h1{
+.aboutme  h1{
 	font-size:1.5rem;
 	line-height:2;
 }
-.aboutme1 h1::after{
-	content:"";
-	width:20%;
-	height:0.8vh;
-	background-color:blue;
-	display:block;
-}
+
 .aboutme1 h2{
 	font-size:1.3rem;
 	padding-top:1rem;
-	color:#C0392B;
 }
 .aboutme1 li{
 	font-size:1.2rem;
@@ -190,13 +193,6 @@
 		justify-content:space-between;
 		width:100%;
 	}
-	.aboutme1 h1::after{
-	content:"";
-	width:10%;
-	height:0.8vh;
-	background-color:blue;
-	display:block;
-}
 	.aboutimg{
 		width:48%;
 	}
@@ -245,14 +241,14 @@
 	text-align:center;
 }
 .res h2{
-	color:#F126B1 ;
+	color: #2b7a78;
 }
 .resume h1{
 	text-align:center;
 	text-shadow:0px 0px 3px black;
 }
 .resume h2{
-	color:#F126B1 ;
+	color:#2b7a78; ;
 }
 .page3{
 
@@ -314,4 +310,63 @@
 	justify-content:center;
 	align-items:center;
 	display:flex;
+}
+.contact{
+	padding-top:2rem;
+}
+.email {
+	text-align:center;
+	padding-top:1.5rem;
+	box-shadow:0px 5px 10px 0px rgb(110 123 131/10%);
+	padding-bottom:1.5rem;
+
+}
+.heading{
+	text-align:center;
+}
+.heading:after{
+	content:"";
+	width:30%;
+	height:1rem;
+	background-color:red;
+	display:block;
+	text-align:center;
+}
+.email iconify-icon{
+	font-size:2rem;
+	height:5rem;
+	width:5rem;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	border:2px solid #2b7a78;
+	border-radius:50%;
+	text-align:center;
+	margin:auto;
+	color:#2b7a78;
+}
+.email iconify-icon:hover{
+	background-color:#2b7a78;
+	color:white;
+}
+.email h1{
+	color:#909497;
+	font-size:1.5rem;
+	padding:1rem;
+}
+.email p{
+	font-size:1.3rem;
+}
+placeholder{
+	font-size:1.8rem;
+}
+@media (min-width:768px){
+	.address{
+		display:flex;
+		justify-content:space-between;
+		padding-top:2rem;
+	}
+	.email{
+		width:32%;
+	}
 }
