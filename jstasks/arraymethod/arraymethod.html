@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<!--array method-->
+	<input type="text" id="mytext" value="" placeholder="enter your name">
+	<input type="text" id="hello" value="">
+	<button type="button" id="btn">click</button>
+	<!-- <p id="para"></p> -->
+	
+	<script>
+		let btn=document.getElementById("btn");
+		btn.addEventListener("click",myFunction);
+		function myFunction(){
+			let inp=document.getElementById("mytext").value;
+			document.getElementById("hello").value=inp;
+		}
+		<!---push-->
+		<!-- var array=[1,2,3,4,5]; -->
+		<!-- array.push(6); -->
+		<!-- console.log(array); -->
+		<!-- var color=["orange","pink","red"]; -->
+		<!-- color.unshift("blue"); -->
+		<!-- console.log(color); -->
+		<!-- var fruit=["apple","orange","grapes"]; -->
+		<!-- fruit.shift("apple"); -->
+		<!-- console.log(fruit); -->
+		<!-- var empty=[1,2,3,4,5,6]; -->
+		<!-- empty.pop(); -->
+		<!-- console.log(empty); -->
+		<!-- var nav=[1,2,3,4,5,6,7]; -->
+		<!-- nav.splice(3); -->
+		<!-- console.log(nav); -->
+		<!-- var nav1=[1,2,3,4,5,6,7]; -->
+		<!-- nav1.splice(4,3); -->
+		<!-- console.log(nav1); -->
+		<!-- var nav2=[1,2,3,4,5,6,7]; -->
+		<!-- nav2.splice(3,3,2); -->
+		<!-- console.log(nav2); -->
+		<!-- var nav3=[1,2,3,4,5,6,7]; -->
+		<!-- nav3.slice(3); -->
+		<!-- console.log(nav3); -->
+		
+</script>
+</body>
+</html>
