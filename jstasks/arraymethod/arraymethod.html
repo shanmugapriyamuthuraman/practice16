@@ -7,18 +7,33 @@
 </head>
 <body>
 	<!--array method-->
-	<input type="text" id="mytext" value="" placeholder="enter your name">
-	<input type="text" id="hello" value="">
-	<button type="button" id="btn">click</button>
+	<!-- <input type="text" id="mytext" value="" placeholder="enter your name"> -->
+	<!-- <input type="text" id="hello" value=""> -->
+	<!-- <button type="button" id="btn">click</button> -->
 	<!-- <p id="para"></p> -->
-	
+	<div>
+		<h2>BMI Calculator</h2>
+		<p class="text">height</p>
+		<input type="text" id="h">
+		<p class="text">weight</p>
+		<input type="text" id="w">
+		<button id="btn" onClick="BMI()">Calculate</button>
+		<p id="result"></p>
+	</div>
 	<script>
-		let btn=document.getElementById("btn");
-		btn.addEventListener("click",myFunction);
-		function myFunction(){
-			let inp=document.getElementById("mytext").value;
-			document.getElementById("hello").value=inp;
+		function BMI(){
+			var h=document.getElementById("h").value;
+			var w=document.getElementById("w").value;
+			var bmi=w/(h*h);
+			document.getElementById("result").innerHTML=""your BMI"
+			
 		}
+		<!-- let btn=document.getElementById("btn"); -->
+		<!-- btn.addEventListener("click",myFunction); -->
+		<!-- function myFunction(){ -->
+			<!-- let inp=document.getElementById("mytext").value; -->
+			<!-- document.getElementById("hello").value=inp; -->
+		<!-- } -->
 		<!---push-->
 		<!-- var array=[1,2,3,4,5]; -->
 		<!-- array.push(6); -->
