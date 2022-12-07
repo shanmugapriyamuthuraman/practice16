@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<!-- <button type="button" id="btn">click</button> -->
+	<!-- <p id="para"></p> -->
+		
+		<label>billAmount:</label>
+		<input type="text" id="inp1" value="">
+		<label>Tips:</label>
+		<input type="text" id="inp2" value=""><br>
+		<label>Tipamount:</label>
+		<input type="number" id="inp3"  value="">
+		<label>total:</label>
+		<input type="number" id="inp4" value="">
+	<button type="button" id="but">calculate</button>
+	<!-- <input type="text" id="int" value=""> -->
+	<!-- <input type="text" id="int1" value=""> -->
+	<!-- <button type="button" id="btn" value="">calculate</button> -->
+	<!-- <input type="text" id="int2" value=""> -->
+<script>
+	<!-- let btn=document.getElementById("btn"); -->
+		<!-- btn.addEventListener("click",myFunction); -->
+		<!-- function myFunction(){ -->
+			<!-- document.getElementById("para").innerHTML="hello"; -->
+		<!-- } -->
+		let btn=document.getElementById("but");
+		btn.addEventListener("click",myFunction);
+		function myFunction()
+		{
+			var cal=document.getElementById("inp1").value; 
+			var cal1=document.getElementById("inp2").value;
+			var cal2 = cal1/100* cal;
+			document.getElementById("inp3").value=cal2;
+			var total=(parseInt(cal)+parseInt(cal2));
+			document.getElementById("inp4").value=total;
+			if(cal===""|| isNaN(cal)){
+				alert("please enter billamount");
+			}
+			if(cal1===""|| isNaN(cal1)){
+				alert("please enter Tips");
+			}
+			
+		}
+			<!---
+		<!-- let btn=document.getElementById("btn"); -->
+		<!-- btn.addEventListener("click",myfunction) -->
+		<!-- function myfunction(){ -->
+			<!-- var h=document.getElementById("int").value; -->
+			<!-- var w=document.getElementById("int1").value; -->
+			<!-- var bmi=w/h/100*h/100; -->
+			<!-- document.getElementById("int2").value=bmi; -->
+			<!-- if(bmi<18.5){ -->
+				<!-- document.getElementById() -->
+			<!-- } -->
+		<!-- } -->
+</script>
+</body>
+</html>
