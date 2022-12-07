@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://code.iconify.design/iconify-icon/1.0.0-beta.3/iconify-icon.min.js"></script>
+	<style>
+		.main{
+			display:flex;
+		}
+	</style>
+</head>
+<body>
+	<div class="hello">
+		<div class="hi">
+			<textarea rows="5" id="text" col="10"></textarea>
+			<button type="button" id="btn">click</button>
+		</div>
+		<div class="how">
+			<p id="para"></p>
+		</div>
+	</div>
+	<script>
+		let btn=document.getElementById("text").value;
+		let btn=document.getElementById("btn");
+		btn.addEventListener("click",myfunction);
+		function myfunction(){
+			document.getElementById("para").innerHTML=btn;
+		}
+	</script>
+	<!-- <div class="main"> -->
+			<!-- <div class="area"> -->
+				<!-- <textarea rows="15" cols="75"id="are"></textarea> -->
+				<!-- <button type="button" id="bdn">click</button> -->
+			<!-- </div> -->
+			<!-- <div class="area" id="pa"> -->
+				
+				<!-- <p id="para"> -->
+				<!-- <iconify-icon icon="material-symbols:edit-document-outline"></iconify-icon> -->
+				<!-- <iconify-icon icon="material-symbols:delete-outline"></iconify-icon> -->
+			<!-- </div> -->
+		<!-- </div> -->
+		
+		<!-- <script> -->
+			<!-- bdns=document.getElementById("bdn") -->
+				<!-- bdns.addEventListener("click",myfunction) -->
+				<!-- function myfunction(){ -->
+					<!-- let a=document.getElementById("are").value -->
+					<!-- document.getElementById("para").innerHTML=a -->
+				<!-- } -->
+		<!-- </script> -->
+</body>
+</html>
