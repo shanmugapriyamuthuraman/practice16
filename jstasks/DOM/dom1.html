@@ -18,10 +18,11 @@
 		<label>total:</label>
 		<input type="number" id="inp4" value="">
 	<button type="button" id="but">calculate</button>
-	<!-- <input type="text" id="int" value=""> -->
-	<!-- <input type="text" id="int1" value=""> -->
-	<!-- <button type="button" id="btn" value="">calculate</button> -->
-	<!-- <input type="text" id="int2" value=""> -->
+	<br>
+	<input type="text" id="int" value="">
+	<input type="text" id="int1" value="">
+	<button type="button" id="btn" value="">calculate</button>
+	<input type="text" id="int2" value="">
 <script>
 	<!-- let btn=document.getElementById("btn"); -->
 		<!-- btn.addEventListener("click",myFunction); -->
@@ -38,26 +39,25 @@
 			document.getElementById("inp3").value=cal2;
 			var total=(parseInt(cal)+parseInt(cal2));
 			document.getElementById("inp4").value=total;
-			if(cal===""|| isNaN(cal)){
-				alert("please enter billamount");
-			}
-			if(cal1===""|| isNaN(cal1)){
-				alert("please enter Tips");
-			}
+			<!-- if(cal===""|| isNaN(cal)){ -->
+				<!-- alert("please enter billamount"); -->
+			<!-- } -->
+			<!-- if(cal1===""|| isNaN(cal1)){ -->
+				<!-- alert("please enter Tips"); -->
+			<!-- } -->
 			
 		}
-			<!---
-		<!-- let btn=document.getElementById("btn"); -->
-		<!-- btn.addEventListener("click",myfunction) -->
-		<!-- function myfunction(){ -->
-			<!-- var h=document.getElementById("int").value; -->
-			<!-- var w=document.getElementById("int1").value; -->
-			<!-- var bmi=w/h/100*h/100; -->
-			<!-- document.getElementById("int2").value=bmi; -->
+		let bun=document.getElementById("btn");
+		bu n.addEventListener("click",myfunction)
+		function myfunction(){
+			var h=document.getElementById("int").value;
+			var w=document.getElementById("int1").value;
+			var bmi=w/h/100*h/100;
+			document.getElementById("int2").value=bmi;
 			<!-- if(bmi<18.5){ -->
 				<!-- document.getElementById() -->
 			<!-- } -->
-		<!-- } -->
+		}
 </script>
 </body>
 </html>
