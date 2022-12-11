@@ -39,6 +39,9 @@
 .nav ul iconify-icon{
 	color:white;
 }
+.banicon iconify-icon{
+	color:white;
+}
 @media(min-width:768px){
 	.navlink{
 		display:none;
@@ -141,7 +144,7 @@
 	height:0.9vh;
 	display:block;
 	margin:auto;
-	margin-top:2rem;
+	margin-top:1rem;
 	text-align:center;
 	background-color:#2b7a78;
 }
@@ -150,6 +153,7 @@
 }
 .aboutimg img{
 	border-radius:0% 40% 0% 40%;
+	border:5px solid #2b7a78;
 	width:100%;
 }
 .aboutname p{
@@ -259,13 +263,11 @@
 }
 .page3{
 
-	background-color:#F5EEF8;
+	background-color:#def2f1;
 	padding-bottom:2rem;
 	padding-top:2rem;
 }
-.page3{
-	background-color:#def2f1;
-}
+
 .page3 h1{
 	text-align:center;
 }
@@ -281,6 +283,9 @@
 	text-decoration:none;
 	color:white;
 }
+.but a:hover{
+	color:black;
+}
 .det{
 	background-color:#D5F5E3;
 	text-align:center;
@@ -290,8 +295,17 @@
 .det img{
 	border-radius:50%;
 }
+.iframe h3{
+	text-align:center;
+}
+.iframe{
+	text-align:center;
+}
 .resume1{
 	box-shadow:0px 0px 2px 3px black;
+}
+.page4{
+	
 }
 .page5{
 	padding-top:2rem;
@@ -362,11 +376,20 @@
 }
 .email h1{
 	color:#909497;
-	font-size:1.5rem;
+	font-size:1.3rem;
 	padding:1rem;
 }
 .email p{
-	font-size:1.3rem;
+	font-size:1.2rem;
+}
+.email a{
+	text-decoration:none;
+	color:white;
+	border:1px solid #2b7a78;
+	background-color:#2b7a78;
+}
+.email a:hover{
+	color:white;
 }
 placeholder{
 	font-size:1.8rem;
@@ -380,4 +403,13 @@ placeholder{
 	.email{
 		width:32%;
 	}
+}
+.desingned{
+	text-align:center;
+	padding-bottom:1.7rem;
+	padding-top:2rem;
+	background-color:#2b7a78;
+}
+.desingned p{
+	color:white; 
 }
