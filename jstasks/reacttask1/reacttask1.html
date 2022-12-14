@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<script>
+		let a=20,b=5
+		let promise=new Promise(
+			function(resolve,reject){
+				setTimeout(()=>{
+					if(a>b){
+						resolve("promise resolved")
+					}
+					else{
+						reject("promise rejected")
+					}
+				},2000);
+			}
+		)
+		console.log(promise);
+		function mainfunc(myfunc){
+			console.log("hello")
+			myfunc()
+		}
+		function callback(){
+			console.log("welcome")
+		}
+		mainfunc(callback)
+	</script>
+</body>
+</html>
